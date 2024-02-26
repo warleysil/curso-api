@@ -5,7 +5,7 @@ import datetime
 from functools import wraps
 
 app = Flask(__name__)
-
+#comentario
 # Configurações inicias
 app.config['SECRET_KEY'] = 'segredo2030'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///blog.db'
